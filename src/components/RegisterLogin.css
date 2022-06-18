@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Login and Registration Form Design */
+.registrationLogin form {
+  padding-top: 10rem;
+}
+
+.registrationLogin form .inputBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.registrationLogin form .inputBox input {
+  width: 49%;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: #333;
+  background: #f7f7f7;
+  text-transform: none;
+}
+
+.btn {
+  width: 49%;
+  display: inline-block;
+  margin-top: 1rem;
+  background: orange;
+  color: #fff;
+  padding: 0.8rem 3rem;
+  border: 0.2rem solid orange;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.btn:hover {
+  background: rgba(255, 165, 0, 0.2);
+  color: orange;
+}
+
+.a {
+  width: 49%;
+  display: inline-block;
+  margin-top: 1rem;
+  background: red;
+  color: #fff;
+  padding: 0.8rem 3rem;
+  border: 0.2rem solid red;
+  cursor: pointer;
+  font-size: 1.7rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.a:hover {
+  background: rgba(255, 165, 0, 0.2);
+  color: red;
+  text-decoration: none;
+}
